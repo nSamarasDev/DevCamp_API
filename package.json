@@ -1,0 +1,27 @@
+{
+  "name": "devcamp_api",
+  "version": "1.0.0",
+  "description": "devcamp_API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nSamarasDev/devcamp_API.git"
+  },
+  "author": "Nicholas Samaras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nSamarasDev/devcamp_API/issues"
+  },
+  "homepage": "https://github.com/nSamarasDev/devcamp_API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

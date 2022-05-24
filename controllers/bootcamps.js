@@ -27,7 +27,7 @@ exports.getBootcamps = asyncHandler(async (req, res, next) => {
   ); //             /g          means global so it will look further than one it finds
 
   // Finding resource
-  query = Bootcamp.find(JSON.parse(queryStr));
+  query = Bootcamp.find(JSON.parse(queryStr)).populate('courses');
 
   // Select fields
   if (req.query.select) {
